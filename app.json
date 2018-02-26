@@ -3,6 +3,17 @@
   "description": "",
   "keywords": ["python", "django"],
   "env": {
-    "DJANGO_SETTINGS_MODULE": "hu-django-ucars.settings.local"
+    "DJANGO_SETTINGS_MODULE": "hu-django-ucars.settings.local",
+    "ADMIN_USERNAME": {
+      "description": "User name for the default admin user",
+      "value": "admin"
+    },
+    "ADMIN_PASS": {
+      "description": "Password for the default admin user. Do not share this passwords with ither users. You can create new users from the admin page and generate credentials for the new users",
+      "value": "admin@123"
+    }
+  },
+  "scripts": {
+    "postdeploy": "python manage.py migrate"
   }
 }
