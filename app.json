@@ -1,0 +1,8 @@
+{
+  "name": "hu-django-ucars",
+  "description": "",
+  "keywords": ["python", "django"],
+  "env": {
+    "DJANGO_SETTINGS_MODULE": "hu-django-ucars.settings.local"
+  }
+}
