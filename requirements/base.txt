@@ -9,6 +9,6 @@ whitenoise==3.2.2
 dj-database-url==0.4.1
 dj-email-url==0.0.10
 
-psycopg2==2.6.2
+psycopg2==2.7
 
 
